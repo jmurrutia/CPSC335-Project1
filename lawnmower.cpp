@@ -1,11 +1,3 @@
-// Assignment 1: Alternating disks problem, lawnmower algorithm
-// Russell Richardson and Jose Urrutia
-// Given 2n alternating disks (dark, light) the program reads the number of single color disks
-// (light or dark), arranges the disks in the correct order and outputs the number of swaps
-// INPUT: a positive integer n and a list of 2n disks of alternating colors dark-light, starting with dark
-// OUTPUT: a list of 2n disks, the first n disks are light, the next n disks are dark,
-// and an integer m representing the number of moves to move the dark ones after the light ones
-
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -33,7 +25,7 @@ int main() {
 
      // display the header
      cout << endl << "CPSC 335-03 - Programming Assignment #1" << endl;
-     cout << "Russell Richardson and Jose Urrutia" << endl;
+     cout << "Jose Urrutia" << endl;
      cout << "The alternating disks problem: lawnmower algorithm" << endl;
      cout << "Enter the number of single color disks (light or dark)" << endl;
 
